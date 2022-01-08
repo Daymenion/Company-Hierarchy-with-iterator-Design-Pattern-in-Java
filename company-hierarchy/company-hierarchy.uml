@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/PROJECTS/MY_OWN_PROJECTS/company-hierarchy</OriginalElement>
+  <nodes>
+    <node x="86.5" y="416.0">util.GroupOfLeaves</node>
+    <node x="598.7818708609271" y="756.0">util.OrganizationIterator</node>
+    <node x="100.78187086092714" y="701.0">util.LeafOfTree</node>
+    <node x="603.375" y="1506.0">OrganizationTest</node>
+    <node x="735.9375" y="1279.0">DataManager</node>
+    <node x="778.5318708609271" y="493.5">util.IEmployee</node>
+    <node x="119.110789183223" y="0.0">util.Tree</node>
+    <node x="393.78187086092714" y="733.5">Employee</node>
+    <node x="32.115204194260514" y="239.0">util.AbstractTree</node>
+    <node x="965.4024558498896" y="449.5">util.Organization</node>
+    <node x="916.5318708609271" y="791.0">util.IterableOrganization</node>
+    <node x="865.4375" y="1561.0">Main</node>
+    <node x="557.375" y="994.0">OrgImplement</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="util.Organization" relationship="DEPENDENCY">
+      <point x="37.0" y="-38.5" />
+      <point x="976.4375" y="1475.0" />
+      <point x="1195.8548565121414" y="1475.0" />
+      <point x="1195.8548565121414" y="679.0" />
+      <point x="1167.1725993377484" y="679.0" />
+      <point x="1167.1725993377484" y="669.0" />
+      <point x="1163.4024558498895" y="669.0" />
+      <point x="66.0" y="82.0" />
+    </edge>
+    <edge source="util.IterableOrganization" target="util.Organization" relationship="INTERFACE_GENERALIZATION">
+      <point x="45.499999999999886" y="-14.5" />
+      <point x="1053.031870860927" y="679.0" />
+      <point x="1031.4024558498895" y="679.0" />
+      <point x="-66.0" y="82.0" />
+    </edge>
+    <edge source="util.LeafOfTree" target="util.AbstractTree" relationship="GENERALIZATION">
+      <point x="-91.0" y="-104.5" />
+      <point x="146.28187086092714" y="679.0" />
+      <point x="76.0" y="679.0" />
+      <point x="76.0" y="389.0" />
+      <point x="118.61520419426051" y="389.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="OrgImplement" target="util.Tree" relationship="DEPENDENCY">
+      <point x="34.375" y="-115.5" />
+      <point x="729.25" y="972.0" />
+      <point x="886.1568708609271" y="972.0" />
+      <point x="886.1568708609271" y="942.0" />
+      <point x="906.0318708609271" y="942.0" />
+      <point x="906.0318708609271" y="218.0" />
+      <point x="602.2774558498896" y="218.0" />
+      <point x="602.2774558498896" y="208.0" />
+      <point x="346.610789183223" y="208.0" />
+      <point x="91.0" y="93.5" />
+    </edge>
+    <edge source="util.IterableOrganization" target="util.IEmployee" relationship="DEPENDENCY">
+      <point x="-45.500000000000114" y="-14.5" />
+      <point x="962.031870860927" y="669.0" />
+      <point x="866.2818708609271" y="669.0" />
+      <point x="29.25" y="38.0" />
+    </edge>
+    <edge source="OrgImplement" target="util.LeafOfTree" relationship="CREATE">
+      <point x="-34.375" y="-115.5" />
+      <point x="660.5" y="972.0" />
+      <point x="485.0" y="972.0" />
+      <point x="485.0" y="932.0" />
+      <point x="237.28187086092714" y="932.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="OrganizationTest" target="util.IterableOrganization" relationship="TO_ONE">
+      <point x="-61.0" y="-93.5" />
+      <point x="633.875" y="1485.0" />
+      <point x="0.0" y="1485.0" />
+      <point x="0.0" y="952.0" />
+      <point x="946.8652041942605" y="952.0" />
+      <point x="-60.66666666666663" y="14.5" />
+    </edge>
+    <edge source="Main" target="util.IterableOrganization" relationship="DEPENDENCY">
+      <point x="74.0" y="0.0" />
+      <point x="1030.9375" y="1599.5" />
+      <point x="23.405629139072857" y="14.5" />
+    </edge>
+    <edge source="util.AbstractTree" target="util.Tree" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="118.61520419426051" y="208.0" />
+      <point x="164.610789183223" y="208.0" />
+      <point x="-91.0" y="93.5" />
+    </edge>
+    <edge source="OrganizationTest" target="util.IEmployee" relationship="DEPENDENCY">
+      <point x="61.0" y="-93.5" />
+      <point x="755.875" y="1485.0" />
+      <point x="1165.906870860927" y="1485.0" />
+      <point x="1165.906870860927" y="1465.0" />
+      <point x="1150.156870860927" y="1465.0" />
+      <point x="1150.156870860927" y="669.0" />
+      <point x="866.2818708609271" y="669.0" />
+      <point x="29.25" y="38.0" />
+    </edge>
+    <edge source="OrganizationTest" target="OrgImplement" relationship="CREATE">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="util.LeafOfTree" target="util.Tree" relationship="DEPENDENCY">
+      <point x="91.0" y="-104.5" />
+      <point x="328.28187086092714" y="679.0" />
+      <point x="435.25" y="679.0" />
+      <point x="435.25" y="218.0" />
+      <point x="602.2774558498896" y="218.0" />
+      <point x="602.2774558498896" y="208.0" />
+      <point x="346.610789183223" y="208.0" />
+      <point x="91.0" y="93.5" />
+    </edge>
+    <edge source="OrgImplement" target="util.Tree" relationship="TO_ONE">
+      <point x="-103.125" y="-115.5" />
+      <point x="591.75" y="942.0" />
+      <point x="10.5" y="942.0" />
+      <point x="10.5" y="218.0" />
+      <point x="207.50593267108172" y="218.0" />
+      <point x="207.50593267108172" y="208.0" />
+      <point x="255.610789183223" y="208.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="util.LeafOfTree" target="util.GroupOfLeaves" relationship="CREATE">
+      <point x="0.0" y="-104.5" />
+      <point x="237.28187086092714" y="679.0" />
+      <point x="236.0" y="679.0" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="Employee" target="util.IEmployee" relationship="REALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="486.28187086092714" y="669.0" />
+      <point x="807.7818708609271" y="669.0" />
+      <point x="-29.25" y="38.0" />
+    </edge>
+    <edge source="OrgImplement" target="Employee" relationship="CREATE">
+      <point x="-34.375" y="-115.5" />
+      <point x="660.5" y="972.0" />
+      <point x="485.0" y="972.0" />
+      <point x="485.0" y="932.0" />
+      <point x="486.28187086092714" y="932.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="Main" target="DataManager" relationship="CREATE">
+      <point x="-37.0" y="-38.5" />
+      <point x="902.4375" y="1465.0" />
+      <point x="857.4375" y="1465.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="util.OrganizationIterator" target="util.Tree" relationship="DEPENDENCY">
+      <point x="0.0" y="-49.5" />
+      <point x="727.2818708609271" y="218.0" />
+      <point x="602.2774558498896" y="218.0" />
+      <point x="602.2774558498896" y="208.0" />
+      <point x="346.610789183223" y="208.0" />
+      <point x="91.0" y="93.5" />
+    </edge>
+    <edge source="util.GroupOfLeaves" target="util.AbstractTree" relationship="GENERALIZATION">
+      <point x="-99.66666666666669" y="-115.5" />
+      <point x="136.33333333333337" y="389.0" />
+      <point x="118.61520419426051" y="389.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="util.GroupOfLeaves" target="util.Tree" relationship="DEPENDENCY">
+      <point x="99.66666666666669" y="-115.5" />
+      <point x="335.6666666666667" y="389.0" />
+      <point x="295.1048565121413" y="389.0" />
+      <point x="295.1048565121413" y="218.0" />
+      <point x="602.2774558498896" y="218.0" />
+      <point x="602.2774558498896" y="208.0" />
+      <point x="346.610789183223" y="208.0" />
+      <point x="91.0" y="93.5" />
+    </edge>
+    <edge source="DataManager" target="util.Organization" relationship="DEPENDENCY">
+      <point x="60.75" y="-82.5" />
+      <point x="918.1875" y="1252.0" />
+      <point x="1109.031870860927" y="1252.0" />
+      <point x="1109.031870860927" y="679.0" />
+      <point x="1167.1725993377484" y="679.0" />
+      <point x="1167.1725993377484" y="669.0" />
+      <point x="1163.4024558498895" y="669.0" />
+      <point x="66.0" y="82.0" />
+    </edge>
+    <edge source="OrganizationTest" target="util.IterableOrganization" relationship="DEPENDENCY">
+      <point x="61.0" y="-93.5" />
+      <point x="755.875" y="1485.0" />
+      <point x="1165.906870860927" y="1485.0" />
+      <point x="1165.906870860927" y="1465.0" />
+      <point x="1160.656870860927" y="1465.0" />
+      <point x="1160.656870860927" y="962.0" />
+      <point x="1068.1985375275938" y="962.0" />
+      <point x="60.66666666666663" y="14.5" />
+    </edge>
+    <edge source="OrganizationTest" target="DataManager" relationship="CREATE">
+      <point x="0.0" y="-93.5" />
+      <point x="694.875" y="1475.0" />
+      <point x="857.4375" y="1475.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="util.GroupOfLeaves" target="util.Tree" relationship="TO_MANY">
+      <point x="0.0" y="-115.5" />
+      <point x="236.0" y="389.0" />
+      <point x="247.1152041942605" y="389.0" />
+      <point x="247.1152041942605" y="218.0" />
+      <point x="207.50593267108172" y="218.0" />
+      <point x="207.50593267108172" y="208.0" />
+      <point x="255.610789183223" y="208.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="OrgImplement" target="util.OrganizationIterator" relationship="CREATE">
+      <point x="-34.375" y="-115.5" />
+      <point x="660.5" y="972.0" />
+      <point x="485.0" y="972.0" />
+      <point x="485.0" y="932.0" />
+      <point x="727.2818708609271" y="932.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="util.OrganizationIterator" target="util.IEmployee" relationship="DEPENDENCY">
+      <point x="0.0" y="-49.5" />
+      <point x="727.2818708609271" y="679.0" />
+      <point x="866.2818708609271" y="679.0" />
+      <point x="29.25" y="38.0" />
+    </edge>
+    <edge source="OrganizationTest" target="util.Organization" relationship="DEPENDENCY">
+      <point x="61.0" y="-93.5" />
+      <point x="755.875" y="1485.0" />
+      <point x="1165.906870860927" y="1485.0" />
+      <point x="1165.906870860927" y="1465.0" />
+      <point x="1171.156870860927" y="1465.0" />
+      <point x="1171.156870860927" y="679.0" />
+      <point x="1167.1725993377484" y="679.0" />
+      <point x="1167.1725993377484" y="669.0" />
+      <point x="1163.4024558498895" y="669.0" />
+      <point x="66.0" y="82.0" />
+    </edge>
+    <edge source="DataManager" target="util.IterableOrganization" relationship="DEPENDENCY">
+      <point x="60.75" y="-82.5" />
+      <point x="918.1875" y="1252.0" />
+      <point x="1109.031870860927" y="1252.0" />
+      <point x="1109.031870860927" y="972.0" />
+      <point x="1160.656870860927" y="972.0" />
+      <point x="1160.656870860927" y="962.0" />
+      <point x="1068.1985375275938" y="962.0" />
+      <point x="60.66666666666663" y="14.5" />
+    </edge>
+    <edge source="OrgImplement" target="util.IEmployee" relationship="DEPENDENCY">
+      <point x="34.375" y="-115.5" />
+      <point x="729.25" y="972.0" />
+      <point x="886.1568708609271" y="972.0" />
+      <point x="886.1568708609271" y="942.0" />
+      <point x="866.2818708609271" y="942.0" />
+      <point x="29.25" y="38.0" />
+    </edge>
+    <edge source="DataManager" target="OrgImplement" relationship="CREATE">
+      <point x="-60.75" y="-82.5" />
+      <point x="796.6875" y="1252.0" />
+      <point x="694.875" y="1252.0" />
+      <point x="0.0" y="115.5" />
+    </edge>
+    <edge source="OrgImplement" target="util.IterableOrganization" relationship="REALIZATION">
+      <point x="103.125" y="-115.5" />
+      <point x="798.0" y="962.0" />
+      <point x="1007.5318708609271" y="962.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5195563339171045" showDependencies="true" x="615.0" y="846.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
